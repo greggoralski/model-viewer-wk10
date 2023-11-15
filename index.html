@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.499/build/spline-viewer.js"></script>
 </head>
 <body>
     <model-viewer src="./models/chair.glb"
@@ -19,17 +20,19 @@
     shadow-intensity="0.85" exposure="0.95" 
     shadow-softness="0.99"> </model-viewer>
 
-            <model-viewer src="./models/chair-export.glb"
+    <model-viewer src="./models/chair-export.glb"
               alt="A 3D model of a chair"
               ar
               auto-rotate
               camera-controls></model-viewer>
-              <model-viewer src="./models/chair-aero.glb"
+    <model-viewer src="./models/chair-aero.glb"
               alt="A 3D model of a chair"
               ar
               auto-rotate
               camera-controls></model-viewer>
-              <model-viewer class="larger-example" src="./models/chair-aero.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.85" exposure="0.95" shadow-softness="0.99">
+              <spline-viewer url="https://prod.spline.design/BnggW7efbPknp3Kw/scene.splinecode"></spline-viewer>
+              
+    <model-viewer class="larger-example" src="./models/chair-aero.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.85" exposure="0.95" shadow-softness="0.99">
                 <button class="Hotspot" slot="hotspot-1" data-position="-0.6182989537587867m 1.143372374710182m -0.12490057744144456m" data-normal="0.8973512874623126m 0.3089969860856231m 0.3150897165566202m" data-visibility-attribute="visible">
                     <div class="HotspotAnnotation">Solid wood frame
                     </div>
